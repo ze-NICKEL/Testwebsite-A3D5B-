@@ -12,12 +12,12 @@
       }
       75% {
         /* Final state on hover */
-        background-color: #39668b;
+        background-color: #4388c0;
         transform: scale(1.07);
       }
       100% {
         /* Maintain final state */
-        background-color: #275a84;
+        background-color: #2a699c;
         transform: scale(1.09);
       }
     }
