@@ -5,9 +5,15 @@
       box-sizing: border-box;
     }
     @keyframes buttonHover {
+      0% {
+        /* Initial state */
+        background-color:white;
+        color: #4682b4;
+        transform: scale(1);
+      }
       50% {
         /* Intermediate state */
-        background-color: #4682b4;
+        background-color: #5e96c4;
         transform: scale(1.05);
       }
       75% {
@@ -17,7 +23,7 @@
       }
       100% {
         /* Maintain final state */
-        background-color: #2a699c;
+        background-color: #3175ad;
         transform: scale(1.09);
       }
     }
