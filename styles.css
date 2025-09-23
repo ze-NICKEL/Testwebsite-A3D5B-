@@ -20,7 +20,12 @@
         color: #275a84;
         transform: scale(1.09);
       }
-    } 
+    }
+
+    /* Keep the hover state after animation */
+    .login-button:hover {
+      animation: buttonHover 0.6s ease-in-out forwards;
+    }
 
     body {
       font-family: 'Arial', sans-serif;
@@ -85,7 +90,6 @@
       font-size: 1rem;
       font-weight: bold;
       text-transform: uppercase;
-      animation: buttonHover 0.6s ease-in-out forwards;
     }
 
     main {
