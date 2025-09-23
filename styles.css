@@ -7,17 +7,17 @@
     @keyframes buttonHover {
       50% {
         /* Intermediate state */
-        color: #4682b4;
+        background-color: #4682b4;
         transform: scale(1.05);
       }
       75% {
         /* Final state on hover */
-        color: #39668b;
+        background-color: #39668b;
         transform: scale(1.07);
       }
       100% {
         /* Maintain final state */
-        color: #275a84;
+        background-color: #275a84;
         transform: scale(1.09);
       }
     }
