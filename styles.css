@@ -5,16 +5,24 @@
       box-sizing: border-box;
     }
     @keyframes buttonHover {
-          50% {
-            /* Intermediate state */
-            color: #4682b4;
-            transform: scale(1.05);
-          }
-          100% {
-            /* Final state on hover */
-            color: #30506a;
-            transform: scale(1.07);
-          }
+      50% {
+        /* Intermediate state */
+        color: #4682b4;
+        transform: scale(1.05);
+      }
+      100% {
+        /* Final state on hover */
+        color: #30506a;
+        transform: scale(1.07);
+      }
+    }
+
+    /* Keep the hover state after animation */
+    .login-button:hover {
+      background-color: #d0e7f2;
+      color: #30506a;
+      transform: scale(1.07);
+      animation: buttonHover 0.3s ease-in-out forwards;
     }
 
     body {
@@ -80,11 +88,6 @@
       font-size: 1rem;
       font-weight: bold;
       text-transform: uppercase;
-    }
-
-    .login-button:hover {
-      background-color: #d0e7f2;
-      animation:buttonHover 0.3s ease-in-out;
     }
 
     main {
