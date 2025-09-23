@@ -13,17 +13,17 @@
       }
       50% {
         /* Intermediate state */
-        background-color: #5e96c4;
+        background-color: #95c0e3;
         transform: scale(1.05);
       }
       75% {
         /* Final state on hover */
-        background-color: #4388c0;
+        background-color: #8fbadd;
         transform: scale(1.07);
       }
       100% {
         /* Maintain final state */
-        background-color: #3175ad;
+        background-color: #68a1cf;
         transform: scale(1.09);
       }
     }
