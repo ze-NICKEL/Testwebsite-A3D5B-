@@ -5,20 +5,15 @@
       box-sizing: border-box;
     }
     @keyframes buttonHover {
-          0% {
-        /* Initial state of the button */
-            background-color: #007bff;
-            transform: scale(1);
-          }
           50% {
             /* Intermediate state */
-            background-color: #0056b3;
+            color: #4682b4;
             transform: scale(1.05);
           }
           100% {
             /* Final state on hover */
-            background-color: #0056b3;
-            transform: scale(1.03);
+            color: #30506a;
+            transform: scale(1.07);
           }
     }
 
