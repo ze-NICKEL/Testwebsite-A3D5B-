@@ -9,7 +9,7 @@
         /* Initial state */
         background-color:white;
         color: #4682b4;
-        transform: scale(1);
+        transform: scale(1.02);
       }
       50% {
         /* Intermediate state */
@@ -24,7 +24,7 @@
       100% {
         /* Maintain final state */
         background-color: #95c3e9;
-        transform: scale(1.13);
+        transform: scale(1.11);
       }
     }
 
