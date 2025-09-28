@@ -11,12 +11,12 @@
         color: #4682b4;
         transform: scale(1.02);
       }
-        25% {
-          /*Slightly Enlarged State*/
-          background-color: white;
-          color: #4682b4;
-          transform: scale(1.035);
-        }
+      25% {
+        /*Slightly Enlarged State*/
+        background-color: white;
+        color: #4682b4;
+        transform: scale(1.035);
+      }
 
       50% {
         /* Intermediate state */
@@ -37,7 +37,7 @@
 
     /* Keep the hover state after animation */
     .login-button:hover {
-      animation: buttonHover 0.8s ease-in-out forwards;
+      animation: buttonHover 0.5s ease-in-out forwards;
     }
 
     body {
