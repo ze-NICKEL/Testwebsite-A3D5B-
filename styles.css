@@ -11,6 +11,13 @@
         color: #4682b4;
         transform: scale(1.02);
       }
+        25% {
+          /*Slightly Enlarged State*/
+          background-color: white;
+          color: #4682b4;
+          transform: scale(1.035);
+        }
+
       50% {
         /* Intermediate state */
         background-color: #95c0e3;
@@ -19,12 +26,12 @@
       75% {
         /* Final state on hover */
         background-color: #8fbadd;
-        transform: scale(1.08);
+        transform: scale(1.065);
       }
       100% {
         /* Maintain final state */
         background-color: #95c3e9;
-        transform: scale(1.11);
+        transform: scale(1.08);
       }
     }
 
